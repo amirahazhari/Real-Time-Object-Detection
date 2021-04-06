@@ -50,7 +50,7 @@ function App() {
       drawRect(obj, ctx);
     }
   };
-
+  //eslint-disable-next-line;
   useEffect(() => {
     runCoco();
   }, []);
